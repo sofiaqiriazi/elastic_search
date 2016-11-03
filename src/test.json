@@ -1,0 +1,1 @@
+curl -XGET 'localhost:9200/collection/_search?pretty' -d '{"sort":["_score"],"size": 100,"query":{"match": {"pdesc": "GEREED TRUWEEL (METS) KLEIN"}}}'
